@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; */
+  width: 50%;
+  margin: auto;
+  padding-top: 10%;
+}
+
+.newtext li {
+  text-decoration: line-through;
+}
+
+.listtodo div {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  gap: 5px;
+}
